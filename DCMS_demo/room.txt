@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+  <title></title>
+  
+</head>
+<body style="background-image: url(images/background4.jpg);">
+<br>
+
+<br>
+
+<form method="post" action="generateappointment.php"><big><big>Confirm Test :<br>
+  <br>
+  </big></big>
+  <table width:="50%">
+    <tbody>
+		<tr>
+        <td>Access No : <br>
+        </td>
+        <td><input name="Access No: " type="text"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Test ID : <br>
+        </td>
+        <td><input name="test_id" type="text"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Test Date : <br>
+        </td>
+        <td><input name="test_date" type="text"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Patient ID : <br>
+        </td>
+        <td><input name="Patient ID" type="text"><br>
+        </td>
+      </tr>
+      
+
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <input name="submit" value="Generate Appointment" type="submit">&nbsp; &nbsp; <input name="reset" value="RESET" type="reset"> <big><big><br>
+  </big></big></form>
+
+</body>
+</html>
